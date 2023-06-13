@@ -1,0 +1,36 @@
+body {
+background-image: url('/images/81iC+O0ec2L._SL1448_.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+} 
+
+body {
+font-family: 'League Gothic', sans-serif;
+font-family: 'Palanquin Dark', sans-serif;
+font-family: 'Roboto', sans-serif;
+}    
+
+.fontColor {
+color: rgb(255, 255, 255);
+}
+
+.topCard {
+border: 6px solid black;
+border-radius: 10px;
+max-width: 275px;
+background-color: rgb(105, 93, 210);
+text-align: center;
+}
+
+.middleCard {
+border: 5px solid rgb(0, 0, 0);
+border-radius: 10px;
+max-width: 275px;
+background-color: rgb(148, 242, 171);
+text-align: center;
+}
+
+.highlighting {
+background-color: white;
+max-width: 150px;
+}
