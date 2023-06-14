@@ -8,16 +8,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Palanquin+Dark&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <title>MyProfile</title>
+    <style>
+        .fontChanging {
+            font-size:x-large;
+            text-shadow: 0.3rem 0.3rem 0.7rem rgb(235, 4, 4);
+        }
+        .footerSection {
+            margin-left: 1080px;
+            clear: both;
+        }
+    </style>
     
 </head>
 <body>
-    <div class="main-header"> 
+    <div class="container">
+    <div class="main-header fontChanging"> 
     <h1>Welcome to my web Profile!</h1>
     </div>
+</div>
 
     <br>
-    <div class="container">
-    <div class="header topCard">
+    <div class="container flexing">
+    <div class="header topCard ">
     <img src="/images/20220316_151130_001.jpg" alt="my picture" width="296">
     <h2>My name is <b>Daniel Yehezkely</b></h2>
     <h3>working at : Programmer </h3>
@@ -39,8 +51,8 @@
     </div>
     </div>
     
-
-    <div class="footer-signup">
+<div class="container">
+    <div class="signup footerCard">
     <br>
     <h2>Create an Account</h2>
     <form action="SomeDataProcessor">
@@ -74,7 +86,12 @@
     <div>
     <input type="submit" value="Sign up">
     </div>
-    </div>
+     </div>
+      </div>
+    
+     <div class="footerSection ">
+        <h3>All rights reserved to AppleSeeds &copy;</h3>
+     </div>
     </form>
 </body>
 </html>
