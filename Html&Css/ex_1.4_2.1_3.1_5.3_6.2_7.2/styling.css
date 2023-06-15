@@ -4,13 +4,17 @@ font-family: 'League Gothic', sans-serif;
 font-family: 'Palanquin Dark', sans-serif;
 font-family: 'Roboto', sans-serif;
 color: rgb(255, 255, 255);
+;
 } 
+
 * {
     box-sizing: border-box;
 }
+
 .flexing{
     display: flex;
 }
+
 .container{
     width: 960px;
     margin:  auto;
@@ -37,6 +41,7 @@ margin: 20px 10px 200px 10px;
 float: right;
 width: 50%;
 }
+
 .footerCard {
     border: 5px solid rgb(0, 0, 0);
     border-radius: 10px;
@@ -53,4 +58,27 @@ background-color: white;
 max-width: 150px;
 }
 
+.fontChanging {
+    font-size:x-large;
+    text-shadow: 0.3rem 0.3rem 0.7rem rgb(235, 4, 4);
+}
+.footerSection {
+    margin-left: 1080px;
+    clear: both;
+}
+.headerPsn {
+    position: relative;
+}
+
+.outerNavBar {
+    border: 2px solid teal;
+    background-color: #272727;
+    text-align: center;
+    margin: 10px 800px 10px;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+
+    
+}
 
