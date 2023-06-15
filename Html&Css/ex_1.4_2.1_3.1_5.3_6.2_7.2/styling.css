@@ -66,19 +66,25 @@ max-width: 150px;
     margin-left: 1080px;
     clear: both;
 }
-.headerPsn {
-    position: relative;
-}
 
-.outerNavBar {
+.nav-Bar {
+    overflow: auto;
     border: 2px solid teal;
     background-color: #272727;
     text-align: center;
     margin: 10px 800px 10px;
     position: sticky;
-    top: 0;
-    z-index: -1;
-
-    
+    top: 0px;
 }
 
+.btns {
+    padding: 10px 20px;
+    text-align: center;
+    margin: 5px 20px;
+    border: rgb(201, 238, 14) solid ;
+    border-radius: 2px;
+}
+
+.hovering:hover {
+background-color: orange;
+}
