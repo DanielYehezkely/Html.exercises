@@ -73,7 +73,7 @@ max-width: 150px;
     border: 2px solid teal;
     background-color: #272727;
     text-align: center;
-    margin: 10px 800px 10px;
+    margin: auto;
     position: sticky;
     top: 0px;
 }
@@ -84,6 +84,7 @@ max-width: 150px;
     margin: 5px 20px;
     border: rgb(201, 238, 14) solid ;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 .hovering:hover {
