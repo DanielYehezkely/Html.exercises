@@ -1,0 +1,18 @@
+.hello-world-one {
+  border: solid red 1px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.hello-world-two {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.hello-world-three {
+  color: white;
+  background: black;
+  box-shadow: 1px 1px 5px #333;
+  font-family: 'Courier New', Courier, monospace;  
+}
+

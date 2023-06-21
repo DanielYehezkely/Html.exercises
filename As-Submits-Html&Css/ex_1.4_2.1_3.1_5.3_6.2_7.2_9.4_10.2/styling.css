@@ -1,0 +1,97 @@
+body {
+background: url('/images/81iC+O0ec2L._SL1448_.jpg') no-repeat  center/cover;
+font-family: 'League Gothic', sans-serif;
+font-family: 'Palanquin Dark', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: rgb(255, 255, 255);
+
+;
+} 
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    background: white;
+}
+
+.flexing{
+    display: flex;
+}
+
+.container{
+    width: 960px;
+    margin:  auto;
+}
+
+.topCard {
+border: 6px solid black;
+border-radius: 10px;
+background-color: rgb(25, 21, 62);
+text-align: center;
+box-shadow: 10px 10px #777876;
+padding: 20px 30px ;
+margin: 20px 20px 20px 250px;
+}
+
+.middleCard {
+border: 5px solid rgb(0, 0, 0);
+border-radius: 10px;
+background: url('https://e0.pxfuel.com/wallpapers/831/869/desktop-wallpaper-dark-tree-sunset-landscape-art.jpg') no-repeat center/cover;
+text-align: center;
+box-shadow: 10px 10px 13px #333;
+padding: 20px 10px;
+margin: 20px 10px 200px 10px;
+float: right;
+width: 50%;
+}
+
+.footerCard {
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+background: url('https://e0.pxfuel.com/wallpapers/443/886/desktop-wallpaper-sunset-dark-theme-minimal-nature-dark-minimalist-theme-sun-thumbnail.jpg');
+padding: 20px;
+margin: 10px 10px 300px 10px;
+text-align: center;
+float: left;
+width: 45%;
+}
+
+.highlighting {
+background-color: white;
+max-width: 150px;
+}
+
+.fontChanging {
+    font-size:x-large;
+    text-shadow: 0.3rem 0.3rem 0.7rem rgb(235, 4, 4);
+}
+.footerSection {
+    margin-left: 1080px;
+    clear: both;
+}
+
+.nav-Bar {
+    overflow: auto;
+    border: 2px solid teal;
+    background-color: #272727;
+    text-align: center;
+    margin: auto;
+    top: 0px;
+}
+
+.btns {
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 5px 20px;
+    border: rgb(201, 238, 14) solid ;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.hovering:hover {
+background-color: orange;
+}

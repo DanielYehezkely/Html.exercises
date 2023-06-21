@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  background: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.flex-container h1 a::after {
+  content: attr(href);
+}
+
+.flex-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-box {
+  margin-top: 10rem;
+  position: relative;
+  background: red;
+  width: 20rem;
+  height: 20rem;
+}
+
+.container-box::after {
+  content: "";
+  background: purple;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+}
+
+.container-box:hover::after {
+  background: coral;
+}
+
+#cool-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40rem;
+  height: 20rem;
+  font-size: 3rem;
+  position: relative;
+}
+
+.left-up-box {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.left-up-box::after {
+  content: "";
+  background: #e3463d;
+  width: 0.3rem;
+  height: 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.left-up-box::before {
+  content: "";
+  background: #e3463d;
+  width: 3rem;
+  height: 0.3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.right-up-box {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.right-up-box::after {
+  content: "";
+  background: #e3463d;
+  width: 0.3rem;
+  height: 3rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.right-up-box::before {
+  content: "";
+  background: #e3463d;
+  width: 3rem;
+  height: 0.3rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.right-bottom-box {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.right-bottom-box::after {
+  content: "";
+  background: #e3463d;
+  width: 0.3rem;
+  height: 3rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.right-bottom-box::before {
+  content: "";
+  background: #e3463d;
+  width: 3rem;
+  height: 0.3rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.left-bottom-box {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  top: 75%;
+  left: 0%;
+}
+
+.left-bottom-box::after {
+  content: "";
+  background: #e3463d;
+  width: 0.3rem;
+  height: 3rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.left-bottom-box::before {
+  content: "";
+  background: #e3463d;
+  width: 3rem;
+  height: 0.3rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+.tool-tip {
+  position: relative;
+}
+
+.tool-tip:hover {
+  color: #c00;
+}
+
+.tool-tip:hover:after {
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.604), rgba(0, 0, 255, 0.566), rgba(255, 255, 0, 0.603));
+  border-radius: 1rem;
+  text-shadow: 0.3rem 0.3rem 0.3rem black;
+  bottom: 130%;
+  color: #ffffff;
+  font-weight: bold;
+  content: attr(title);
+  display: block;
+  left: 50%;
+  padding: 1rem;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+
+
