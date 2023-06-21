@@ -17,9 +17,10 @@ html {
 }
 
 body {
+  background: var(--primary-color);
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-family: --primary-font;
+  font-weight: --primary-font-weight;
   line-height: 1.6;
 }
 
@@ -34,27 +35,35 @@ a {
 /* header */
 
 #head-content {
-    background: url(/images/aisvri-iyHY_njb6Jg-unsplash.jpg) no-repeat center center/cover;
     width: 100vw;
     height: 100vh;
 }
 
 .container {
+    height: 100vh;
     padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container h1 {
+  font-size: 4rem;
 }
 
 .card-one {
     border: solid black 0.1rem;
-    margin:  3rem 0rem 1.5rem 37.3rem ;
+    ;
     max-width: 50%;
     text-align: center;
     color: aliceblue;
     border-radius: 1rem;
-    background-color: darkblue;
+    background-color: var(--boxes-color);
 }
 
 .card-one h1::before {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: --primary-font;
     font-size: 2rem;
 content: "\00A7";
 font-weight: 500;
@@ -63,11 +72,10 @@ color: beige;
 
 .card-two {
     border: solid black 0.1rem;
-    margin:3rem 0rem 1.5rem 37.3rem ;
     max-width: 50%;
     text-align: center;
     border-radius: 1rem;
-    background-color: rgb(196, 116, 19);
+    background-color: var(--boxes-color);
 }
 
 .card-two h1::before {
@@ -79,11 +87,10 @@ color: rgb(8, 3, 3);
 }
 .card-three {
     border: solid black 0.1rem;
-    margin:  3rem 0rem 1.5rem 37.3rem ;
     max-width: 50%;
     text-align: center;
     border-radius: 1rem;
-    background-color: bisque;
+    background-color: var(--boxes-color);
 }
 
 .card-three h1::before {
