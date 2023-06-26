@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: #d3d3d3;
+}
+
+.primary-container {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 2rem;
+  background: transparent;
+  border: 0.4rem solid black;
+  width: 20rem;
+  height: 10rem;
+  padding: 0.4rem;
+  position: relative;
+}
+
+
+
+
+.TranslateY {
+    position: relative;
+}
+.TranslateY::after{
+    transition: all 0.5s ease-out;
+    content: '';
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+}
+.TranslateY:hover::after {
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 'Cool !';
+    height: 100%;
+    transform: translateY();
+}
+.TranslateX {
+    position: relative;
+}
+.TranslateX::after{
+    transition: all 0.5s ease-out;
+    content: '';
+    background: rgb(25, 1, 203);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+}
+.TranslateX:hover::after {
+    width: 100%;
+    transform: translateX();
+    z-index: -1;
+}
+
+
+.Rotate {
+    position: relative;
+    overflow: hidden;
+}
+.Rotate::after{
+    transition: all 0.5s ease-out;
+    content: '';
+    background: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 20rem;
+}
+.Rotate:hover::after {
+    height: 10rem;
+    width: 20rem;
+    transform: Rotate(-180deg);
+    z-index: -1;
+    
+}
+
+.Scale {
+    position: relative;
+    /* overflow: hidden; */
+}
+ 
+.Scale::after {
+display: flex;
+background: black;
+align-items: center;
+justify-content: center;
+content: '';
+position: absolute;
+width: 10rem;
+height: 10rem;
+top: 0;
+left: 0;
+transition: all 1s ease-out;
+}
+
+.Scale:hover::after {
+background: red;
+transform: scale(2);
+}
+
+
+
+
