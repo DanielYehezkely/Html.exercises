@@ -1,0 +1,197 @@
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+}
+
+h3 {
+  cursor: pointer;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  top: 10px;
+  left: 30%;
+  width: 50%;
+  height: 60px;
+  background: #d8d7d7;
+}
+
+.home {
+  position: relative;
+}
+
+.home::after {
+  position: absolute;
+  content: "";
+  border-top: 2px solid black;
+  width: 1px;
+  top: -5px;
+  right: 0;
+  opacity: 0;
+}
+.home::before {
+  position: absolute;
+  content: "";
+  border-top: 2px solid black;
+  width: 1px;
+  bottom: -5px;
+  left: 0;
+  opacity: 0;
+}
+
+.home:hover::after,
+.home:hover::before {
+  content: "";
+  animation: Border-animation 1s ease forwards;
+}
+
+@keyframes Border-animation {
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+.about {
+  position: relative;
+}
+
+.about::after {
+  position: absolute;
+  content: "";
+  border-top: 2px solid black;
+  width: 1px;
+  top: -5px;
+  right: 0;
+  opacity: 0;
+}
+.about::before {
+  position: absolute;
+  content: "";
+  border-top: 2px solid black;
+  width: 1px;
+  bottom: -5px;
+  left: 0;
+  opacity: 0;
+}
+
+.about:hover::after,
+.about:hover::before {
+  content: "";
+  animation: Border-animation 1s ease forwards;
+}
+
+@keyframes Border-animation {
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+.services {
+  position: relative;
+}
+
+.services::after {
+  position: absolute;
+  content: "";
+  border-top: 2px solid black;
+  width: 1px;
+  top: -5px;
+  right: 0;
+  opacity: 0;
+}
+.services::before {
+  position: absolute;
+  content: "";
+  border-top: 2px solid black;
+  width: 1px;
+  bottom: -5px;
+  left: 0;
+  opacity: 0;
+}
+
+.services:hover::after,
+.services:hover::before {
+  content: "";
+  animation: Border-animation 1s ease forwards;
+}
+
+@keyframes Border-animation {
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+.portfolio {
+  position: relative;
+}
+
+.portfolio::after {
+  position: absolute;
+  content: "";
+  border-top: 2px solid black;
+  width: 1px;
+  top: -5px;
+  right: 0;
+  opacity: 0;
+}
+.portfolio::before {
+  position: absolute;
+  content: "";
+  border-top: 2px solid black;
+  width: 1px;
+  bottom: -5px;
+  left: 0;
+  opacity: 0;
+}
+
+.portfolio:hover::after,
+.portfolio:hover::before {
+  content: "";
+  animation: Border-animation 1s ease forwards;
+}
+
+@keyframes Border-animation {
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+.contact {
+  position: relative;
+}
+
+.contact::after {
+  position: absolute;
+  content: "";
+  border-top: 2px solid black;
+  width: 1px;
+  top: -5px;
+  right: 0;
+  opacity: 0;
+}
+.contact::before {
+  position: absolute;
+  content: "";
+  border-top: 2px solid black;
+  width: 1px;
+  bottom: -5px;
+  left: 0;
+  opacity: 0;
+}
+
+.contact:hover::after,
+.contact:hover::before {
+  content: "";
+  animation: Border-animation 1s ease forwards;
+}
+
+@keyframes Border-animation {
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
