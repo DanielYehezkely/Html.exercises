@@ -1,0 +1,20 @@
+@media (max-width: 830px) {
+    .primary-container {
+        grid-template-areas: 
+        'header header header header'
+        'sidebar content content content'
+        'sidebar2 sidebar2 sidebar2 sidebar2'
+        'footer footer footer footer';
+    }
+}
+
+@media (max-width: 500px) {
+    .primary-container {
+grid-template-areas: 
+'header'
+'sidebar'
+'content'
+'sidebar2'
+'footer';
+    }
+}
