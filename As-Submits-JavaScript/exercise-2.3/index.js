@@ -1,8 +1,14 @@
 function circleAreaCalc(radius) {
-    return Math.PI * (Math.pow(radius, 2));
+    // const area = Math.PI * (Math.pow(radius, 2));
+    const area = Math.PI * radius **2
+    console.log(area)
+    return area.toFixed(2);
+    
 }
-const circleArea = circleAreaCalc(23.5);
-console.log(circleArea);
+console.log(circleAreaCalc(23.5))
 
-const circleAreaRounded = circleArea.toFixed(2);
-console.log(circleAreaRounded);
+// const circleArea = circleAreaCalc(23.5);
+// console.log(circleArea);
+
+// const circleAreaRounded = circleArea.toFixed(2);
+// console.log(circleAreaRounded);
