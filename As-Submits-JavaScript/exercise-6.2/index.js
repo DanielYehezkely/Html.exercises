@@ -58,7 +58,7 @@ done ["Greg", "Mary", "Elizabeth", "Artie",
 console.log(people);
 people.splice(0, 1, "Greg");
 people.splice(2, 1, "Elizabeth", "Artie");
-people.splice(4, 1, "devon", "james" );
+people.splice(4, 1, "devon", "james" ); 
 
 console.log(people);
 

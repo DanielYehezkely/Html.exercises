@@ -1,6 +1,7 @@
 // 1
 const objArray = new Array(100).fill({ same: "object" });
 console.log(objArray);
+
 // 2
 const arrayRange = (start, stop, step) =>
   Array.from(
@@ -14,7 +15,7 @@ const valuesArray = Object.values(exampleObject);
 console.log(valuesArray);
 // 4
 const exampleArray = [1, 2, 3, 4, 5, 6];
-const newObject = Object.assign({}, exampleArray);
+const newObject = Object.assign({}, exampleArray); 
 console.log(newObject);
 // 5
 const isArr = Array.isArray(exampleArray);
