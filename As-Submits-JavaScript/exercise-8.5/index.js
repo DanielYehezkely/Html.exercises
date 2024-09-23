@@ -1,12 +1,12 @@
 const objective = {
-    name: 'daniel',
-    lastname: 'yehezkely'
+  lastname: 'yehezkely',
+    name: 'daniel'
 }
 
-const swapObj = (obj) => {
+const swapObj = (objective) => {
     const result = {};
-    for (const key in obj) {
-      result[obj[key]] = key;
+    for (const key in objective) {
+      result[objective[key]] = key;
     }
     return result;
   };

@@ -7,8 +7,7 @@
     margin: 50px;
     position: relative;
 }
-/* Answer 1 */
-/* i added relative position to .outer and reason is we want that the inner square will be 10px from the top of the outer square, so an absolute position will relate to the first relative element, in the first case it got related to the default relative - the browser. */
+
 
 .container {
     position: absolute;
